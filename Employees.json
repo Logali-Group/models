@@ -1,0 +1,549 @@
+{
+  "Employees": [
+    {
+      "EmployeeID": "1",
+      "LastName": "García Lopez",
+      "FirstName": "María",
+      "FullName": "María García Lopez",
+      "Title": "Sales Manager",
+      "TitleOfCourtesy": "Ms.",
+      "BirthDate": "1985-03-15T00:00:00",
+      "HireDate": "2015-08-20T00:00:00",
+      "Address": "Calle Alcala, 45",
+      "City": "Madrid",
+      "Region": "Comunidad de Madrid",
+      "PostalCode": "28021",
+      "Country": "ES",
+      "HomePhone": "+34 912 345 678",
+      "Extension": "1101",
+      "Photo": "https://i.pravatar.cc/150?u=1",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2015-08-20T10:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-06-15T14:20:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "208",
+          "Freight": "65",
+          "ShipAddress": "Calle Alcala"
+        },
+        {
+          "OrderID": "2096",
+          "Freight": "21",
+          "ShipAddress": "Calle Mayor"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "2",
+      "LastName": "Fernandez Díaz",
+      "FirstName": "Pedro",
+      "FullName": "Pedro Fernandez Díaz",
+      "Title": "IT Specialist",
+      "TitleOfCourtesy": "Mr.",
+      "BirthDate": "1990-11-20T00:00:00",
+      "HireDate": "2018-02-10T00:00:00",
+      "Address": "Plaza Nueva, 5",
+      "City": "Granada",
+      "Region": "Andalucía",
+      "PostalCode": "18008",
+      "Country": "ES",
+      "HomePhone": "+34 958 123 456",
+      "Extension": "1102",
+      "Photo": "https://i.pravatar.cc/150?u=2",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2018-02-10T09:30:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2023-11-05T18:00:00Z",
+        "ModifiedBy": "HR_Admin"
+      },
+      "Orders": [
+        {
+          "OrderID": "1056",
+          "Freight": "78",
+          "ShipAddress": "Calle Alcala"
+        },
+        {
+          "OrderID": "6731",
+          "Freight": "90",
+          "ShipAddress": "Calle Mayor"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "3",
+      "LastName": "Davolio",
+      "FirstName": "Nancy",
+      "FullName": "Nancy Davolio",
+      "Title": "Sales Representative",
+      "TitleOfCourtesy": "Ms.",
+      "BirthDate": "1978-12-08T00:00:00",
+      "HireDate": "2010-05-01T00:00:00",
+      "Address": "507 - 20th Ave. E. Apt. 2A",
+      "City": "Seattle",
+      "Region": "WA",
+      "PostalCode": "98052",
+      "Country": "US",
+      "HomePhone": "(206) 555-9857",
+      "Extension": "5467",
+      "Photo": "https://i.pravatar.cc/150?u=3",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2010-05-01T11:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-01-10T12:00:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "789",
+          "Freight": "34",
+          "ShipAddress": "1029 - 12th Ave. S."
+        },
+        {
+          "OrderID": "3057",
+          "Freight": "12",
+          "ShipAddress": "2732 Baker Blvd."
+        }
+      ]
+    },
+    {
+      "EmployeeID": "4",
+      "LastName": "Peacock",
+      "FirstName": "Margaret",
+      "FullName": "Margaret Peacock",
+      "Title": "Team Lead",
+      "TitleOfCourtesy": "Mrs.",
+      "BirthDate": "1987-09-19T00:00:00",
+      "HireDate": "2016-03-02T00:00:00",
+      "Address": "4110 Old Redmond Rd.",
+      "City": "Redmond",
+      "Region": "WA",
+      "PostalCode": "08025",
+      "Country": "US",
+      "HomePhone": "(206) 555-8122",
+      "Extension": "5176",
+      "Photo": "https://i.pravatar.cc/150?u=4",
+      "Status": "On Leave",
+      "Audit": {
+        "CreatedAt": "2016-03-02T09:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-07-01T10:00:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "100",
+          "Freight": "83",
+          "ShipAddress": "187 Suffolk Ln."
+        },
+        {
+          "OrderID": "209",
+          "Freight": "52",
+          "ShipAddress": "87 Polk St. Suite 5"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "5",
+      "LastName": "Buchanan",
+      "FirstName": "Steven",
+      "FullName": "Steven Buchanan",
+      "Title": "Software Developer",
+      "TitleOfCourtesy": "Mr.",
+      "BirthDate": "1993-03-04T00:00:00",
+      "HireDate": "2020-10-17T00:00:00",
+      "Address": "14 Garrett Hill",
+      "City": "London",
+      "Region": "London",
+      "PostalCode": "67059",
+      "Country": "GB",
+      "HomePhone": "(71) 555-4848",
+      "Extension": "3453",
+      "Photo": "https://i.pravatar.cc/150?u=5",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2020-10-17T15:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-02-22T16:45:00Z",
+        "ModifiedBy": "ADMIN_USER"
+      },
+      "Orders": [
+        {
+          "OrderID": "10",
+          "Freight": "57",
+          "ShipAddress": "Brook Farm Stratford St. Mary"
+        },
+        {
+          "OrderID": "2010",
+          "Freight": "89",
+          "ShipAddress": "Fauntleroy Circus"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "6",
+      "LastName": "King",
+      "FirstName": "Andrew",
+      "FullName": "Andrew King",
+      "Title": "Data Analyst",
+      "TitleOfCourtesy": "Mr.",
+      "BirthDate": "1995-01-29T00:00:00",
+      "HireDate": "2021-01-20T00:00:00",
+      "Address": "722 Moss Bay Blvd.",
+      "City": "Tacoma",
+      "Region": "WA",
+      "PostalCode": "98401",
+      "Country": "US",
+      "HomePhone": "(206) 555-3412",
+      "Extension": "3355",
+      "Photo": "https://i.pravatar.cc/150?u=6",
+      "Status": "Inactive",
+      "Audit": {
+        "CreatedAt": "2021-01-20T10:10:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2023-08-30T11:00:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "1023",
+          "Freight": "55",
+          "ShipAddress": "123 Main St."
+        },
+        {
+          "OrderID": "4567",
+          "Freight": "87",
+          "ShipAddress": "456 Broadway"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "7",
+      "LastName": "Callahan",
+      "FirstName": "Laura",
+      "FullName": "Laura Callahan",
+      "Title": "HR Manager",
+      "TitleOfCourtesy": "Ms.",
+      "BirthDate": "1988-01-09T00:00:00",
+      "HireDate": "2017-03-05T00:00:00",
+      "Address": "4726 - 11th Ave. N.E.",
+      "City": "Seattle",
+      "Region": "WA",
+      "PostalCode": "98052",
+      "Country": "US",
+      "HomePhone": "(206) 555-1189",
+      "Extension": "2344",
+      "Photo": "https://i.pravatar.cc/150?u=7",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2017-03-05T13:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-05-01T09:30:00Z",
+        "ModifiedBy": "ADMIN_USER"
+      },
+      "Orders": [
+        {
+          "OrderID": "890",
+          "Freight": "32",
+          "ShipAddress": "789 1st Ave."
+        },
+        {
+          "OrderID": "3456",
+          "Freight": "15",
+          "ShipAddress": "678 2nd Ave."
+        }
+      ]
+    },
+    {
+      "EmployeeID": "8",
+      "LastName": "Fuller",
+      "FirstName": "Sue",
+      "FullName": "Sue Fuller",
+      "Title": "Marketing Specialist",
+      "TitleOfCourtesy": "Ms.",
+      "BirthDate": "1992-07-02T00:00:00",
+      "HireDate": "2019-08-14T00:00:00",
+      "Address": "908 W. Capital Way",
+      "City": "Redmond",
+      "Region": "WA",
+      "PostalCode": "08025",
+      "Country": "US",
+      "HomePhone": "(206) 555-9482",
+      "Extension": "3457",
+      "Photo": "https://i.pravatar.cc/150?u=8",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2019-08-14T11:45:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-04-18T16:00:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "101",
+          "Freight": "80",
+          "ShipAddress": "123 Main St."
+        },
+        {
+          "OrderID": "202",
+          "Freight": "50",
+          "ShipAddress": "456 Broadway"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "9",
+      "LastName": "Leverling",
+      "FirstName": "Janet",
+      "FullName": "Janet Leverling",
+      "Title": "Project Manager",
+      "TitleOfCourtesy": "Ms.",
+      "BirthDate": "1989-08-30T00:00:00",
+      "HireDate": "2017-04-01T00:00:00",
+      "Address": "Coventry House Miner Rd.",
+      "City": "London",
+      "Region": "London",
+      "PostalCode": "67059",
+      "Country": "GB",
+      "HomePhone": "(71) 555-3412",
+      "Extension": "3355",
+      "Photo": "https://i.pravatar.cc/150?u=9",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2017-04-01T10:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-03-12T11:25:00Z",
+        "ModifiedBy": "ADMIN_USER"
+      },
+      "Orders": [
+        {
+          "OrderID": "11",
+          "Freight": "58",
+          "ShipAddress": "123 Main St."
+        },
+        {
+          "OrderID": "2011",
+          "Freight": "88",
+          "ShipAddress": "456 Broadway"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "10",
+      "LastName": "Adams",
+      "FirstName": "Michael",
+      "FullName": "Michael Adams",
+      "Title": "Software Developer",
+      "TitleOfCourtesy": "Mr.",
+      "BirthDate": "1994-05-21T00:00:00",
+      "HireDate": "2022-03-15T00:00:00",
+      "Address": "123 Silicon Valley",
+      "City": "Tacoma",
+      "Region": "WA",
+      "PostalCode": "98401",
+      "Country": "US",
+      "HomePhone": "(206) 555-1234",
+      "Extension": "4567",
+      "Photo": "https://i.pravatar.cc/150?u=10",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2022-03-15T09:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-06-20T10:15:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "1024",
+          "Freight": "54",
+          "ShipAddress": "123 Main St."
+        },
+        {
+          "OrderID": "4568",
+          "Freight": "86",
+          "ShipAddress": "456 Broadway"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "14",
+      "LastName": "Pérez Rodríguez",
+      "FirstName": "Juan",
+      "FullName": "Juan Pérez Rodríguez",
+      "Title": "Sales Representative",
+      "TitleOfCourtesy": "Mr.",
+      "BirthDate": "1986-07-11T00:00:00",
+      "HireDate": "2014-11-01T00:00:00",
+      "Address": "Insurgentes Sur 123",
+      "City": "México",
+      "Region": "CDMX",
+      "PostalCode": "06600",
+      "Country": "MX",
+      "HomePhone": "+52 55 1234 5678",
+      "Extension": "8765",
+      "Photo": "https://i.pravatar.cc/150?u=14",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2014-11-01T12:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-04-30T17:00:00Z",
+        "ModifiedBy": "ADMIN_USER"
+      },
+      "Orders": [
+        {
+          "OrderID": "1234",
+          "Freight": "85",
+          "ShipAddress": "Avenida Reforma"
+        },
+        {
+          "OrderID": "5678",
+          "Freight": "32",
+          "ShipAddress": "Calle de la Luna"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "17",
+      "LastName": "Schmidt",
+      "FirstName": "Hans",
+      "FullName": "Hans Schmidt",
+      "Title": "Operations Manager",
+      "TitleOfCourtesy": "Mr.",
+      "BirthDate": "1980-04-25T00:00:00",
+      "HireDate": "2012-09-18T00:00:00",
+      "Address": "Kurfürstendamm 22",
+      "City": "Berlín",
+      "Region": "Berlin",
+      "PostalCode": "10117",
+      "Country": "DE",
+      "HomePhone": "+49 30 1234567",
+      "Extension": "4321",
+      "Photo": "https://i.pravatar.cc/150?u=17",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2012-09-18T08:30:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-05-11T13:40:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "1357",
+          "Freight": "67",
+          "ShipAddress": "Unter den Linden"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "19",
+      "LastName": "Levine",
+      "FirstName": "Sarah",
+      "FullName": "Sarah Levine",
+      "Title": "Senior Developer",
+      "TitleOfCourtesy": "Ms.",
+      "BirthDate": "1988-10-05T00:00:00",
+      "HireDate": "2019-01-22T00:00:00",
+      "Address": "23 E 14th St",
+      "City": "New York",
+      "Region": "NY",
+      "PostalCode": "10001",
+      "Country": "US",
+      "HomePhone": "(212) 555-1122",
+      "Extension": "9876",
+      "Photo": "https://i.pravatar.cc/150?u=19",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2019-01-22T14:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-06-01T11:00:00Z",
+        "ModifiedBy": "ADMIN_USER"
+      },
+      "Orders": [
+        {
+          "OrderID": "1111",
+          "Freight": "100",
+          "ShipAddress": "5th Avenue"
+        },
+        {
+          "OrderID": "2222",
+          "Freight": "50",
+          "ShipAddress": "Broadway"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "21",
+      "LastName": "Silva",
+      "FirstName": "Maria",
+      "FullName": "Maria Silva",
+      "Title": "Customer Support",
+      "TitleOfCourtesy": "Ms.",
+      "BirthDate": "1991-06-12T00:00:00",
+      "HireDate": "2020-07-30T00:00:00",
+      "Address": "Avenida Ipiranga 45",
+      "City": "São Paulo",
+      "Region": "SP",
+      "PostalCode": "01001-000",
+      "Country": "BR",
+      "HomePhone": "+55 11 98765-4321",
+      "Extension": "1212",
+      "Photo": "https://i.pravatar.cc/150?u=21",
+      "Status": "On Leave",
+      "Audit": {
+        "CreatedAt": "2020-07-30T18:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2024-05-25T09:00:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "4444",
+          "Freight": "60",
+          "ShipAddress": "Avenida Paulista"
+        },
+        {
+          "OrderID": "5555",
+          "Freight": "35",
+          "ShipAddress": "Rua Augusta"
+        }
+      ]
+    },
+    {
+      "EmployeeID": "25",
+      "LastName": "Chen",
+      "FirstName": "Wei",
+      "FullName": "Wei Chen",
+      "Title": "Logistics Coordinator",
+      "TitleOfCourtesy": "Mr.",
+      "BirthDate": "1984-02-18T00:00:00",
+      "HireDate": "2013-05-14T00:00:00",
+      "Address": "Nanjing Road 101",
+      "City": "Shanghai",
+      "Region": "Shanghai",
+      "PostalCode": "200000",
+      "Country": "CN",
+      "HomePhone": "+86 21 8765 4321",
+      "Extension": "5858",
+      "Photo": "https://i.pravatar.cc/150?u=25",
+      "Status": "Active",
+      "Audit": {
+        "CreatedAt": "2013-05-14T07:00:00Z",
+        "CreatedBy": "HR_Admin",
+        "ModifiedAt": "2023-12-10T22:10:00Z",
+        "ModifiedBy": "SYSTEM"
+      },
+      "Orders": [
+        {
+          "OrderID": "7890",
+          "Freight": "50",
+          "ShipAddress": "Bund"
+        }
+      ]
+    }
+  ]
+}
